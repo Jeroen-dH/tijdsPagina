@@ -4,9 +4,10 @@ $date = (date("h:i:s a"));
 $tijd = (date("h:i:s"));
 
 
-print($date."<br>");
+// print($date."<br>");
+// print(date("h"));
 if (preg_match('/\bpm\b/', $date)) {
-    if (date("h") <= 18){
+    if (date("h") <= 06){
         $background = "fotos/afternoon.png";
         $text = "goede middag";
     }else{ 
